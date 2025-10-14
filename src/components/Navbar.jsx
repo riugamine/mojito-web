@@ -10,7 +10,6 @@ const Navbar = () => {
                 start: 'bottom top',
                 
                 scrub: true,
-                markers: true,
             },
         })
         navTween.fromTo('nav', {backgroundColor: 'transparent'}, {backgroundColor: '#00000050', 
