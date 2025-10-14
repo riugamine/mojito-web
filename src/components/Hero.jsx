@@ -41,7 +41,7 @@ const Hero = () => {
         .to('.left-leaf', {y: -200 }, 0)
 
         const starValue = isMobile ? 'top 50%' : 'center 60%'
-        const endValue = isMobile ? '120% top' : '120% top'
+        const endValue = isMobile ? '120% top' : '100% top'
         const tl = gsap.timeline({
             scrollTrigger: {
                 trigger: '.video',
