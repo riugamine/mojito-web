@@ -8,12 +8,11 @@ const Navbar = () => {
             scrollTrigger: {
                 trigger: 'nav',
                 start: 'bottom top',
-                
                 scrub: true,
             },
         })
         navTween.fromTo('nav', {backgroundColor: 'transparent'}, {backgroundColor: '#00000050', 
-            backdropFilter: 'blur(10px)',  duration: 1, ease: 'power1.inOut'})
+            backdropFilter: 'blur(20px)',  duration: 1, ease: 'power1.inOut'})
     }, [])
   return (
     <nav>
